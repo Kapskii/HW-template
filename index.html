@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@700&family=Rubik:wght@300&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@700&family=Rubik:wght@400;500&display=swap"
         rel="stylesheet">
 </head>
 
@@ -18,7 +18,7 @@
         <a class="logo" href="">
             <img src="./assets/image/Logo.svg" alt="logo">
         </a>
-        <ul>
+        <ul class="nav">
             <li>
                 <a class="nav" href="#hero">Main</a>
             </li>
@@ -34,7 +34,7 @@
         <div class="text">
             <h1>Markup achievement</h1>
             <p>The harder you work for something, the greater you’ll feel when you achieve it.</p>
-            <button>Learn More</button>
+            <button class="button button-large button-blue">Learn More</button>
         </div>
         <img class="image" src="./assets/image/image.png" alt="image">
     </section>
@@ -44,35 +44,47 @@
             <p>Failure will never overtake me if my determination to succeed is strong enough.</p>
         </div>
         <table>
-            <tr>
-                <th>Features</th>
-                <th>Standart</th>
-                <th>Plus</th>
-                <th>PRO</th>
+            <tr class="row">
+                <th class="cell smoke">Features</th>
+                <th class="cell bold">Standart</th>
+                <th class="cell bold">Plus</th>
+                <th class="cell bold">PRO</th>
             </tr>
-            <tr>
-                <th>Theory</th>
-                <td><img src="./assets/image/check.svg" alt="image"></td>
-                <td><img src="./assets/image/check.svg" alt="image"></td>
-                <td><img src="./assets/image/check.svg" alt="image"></td>
+            <tr class="row">
+                <th class="cell no-smoke">Theory</th>
+                <td class="cell check"></td>
+                <td class="cell check"></td>
+                <td class="cell check"></td>
             </tr>
-            <tr>
-                <th>Practice</th>
-                <td><img src="./assets/image/close.svg" alt="image"></td>
-                <td><img src="./assets/image/check.svg" alt="image"></td>
-                <td><img src="./assets/image/check.svg" alt="image"></td>
+            <tr class="row">
+                <th class="cell no-smoke">Practice</th>
+                <td class="cell close"></td>
+                <td class="cell check"></td>
+                <td class="cell check"></td>
             </tr>
-            <tr>
-                <th>Code review</th>
-                <td><img src="./assets/image/close.svg" alt="image"></td>
-                <td><img src="./assets/image/close.svg" alt="image"></td>
-                <td><img src="./assets/image/check.svg" alt="image"></td>
+            <tr class="row">
+                <th class="cell no-smoke">Code review</th>
+                <td class="cell close"></td>
+                <td class="cell close"></td>
+                <td class="cell check"></td>
             </tr>
-            <tr>
-                <th><a href="#">Have questions?</a></th>
-                <td><button>get now</button></td>
-                <td><button>get now</button></td>
-                <td><button>get now</button></td>
+            <tr class="row row-large">
+                <th class="cell no-smoke"><a href="#">Have questions?</a></th>
+                <td class="cell ">
+                    <div class="cell-center">
+                        <button class="button button-light">get now</button>
+                    </div>
+                </td>
+                <td class="cell">
+                    <div class="cell-center">
+                        <button class="button button-blue">get now</button>
+                    </div>
+                </td>
+                <td class="cell">
+                    <div class=" cell-center">
+                        <button class="button button-light">get now</button>
+                    </div>
+                </td>
             </tr>
         </table>
     </section>
@@ -96,16 +108,16 @@
                 <option value="">USA</option>
                 <option value="">China</option>
             </select>
-            
-                <label for="front">
-                    <input id="front" type="radio" name="stack" checked>
-                    Frontend
-                </label>
-                <label for="back">
-                    <input id="back" type="radio" name="stack">
-                    Backend
-                </label>
-            
+
+            <label for="front">
+                <input id="front" type="radio" name="stack" checked>
+                Frontend
+            </label>
+            <label for="back">
+                <input id="back" type="radio" name="stack">
+                Backend
+            </label>
+
             <fieldset>
                 <legend>Favorite Technologies</legend>
                 <label for="html">
