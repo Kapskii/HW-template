@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Work</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@700&family=Rubik:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a class="logo" href="">
+            <img src="./assets/image/Logo.svg" alt="logo">
+        </a>
+        <ul>
+            <li>
+                <a class="nav" href="#hero">Main</a>
+            </li>
+            <li>
+                <a class="nav" href="#rates">Rates</a>
+            </li>
+            <li>
+                <a class="nav" href="#newAccount">create account</a>
+            </li>
+        </ul>
+    </header>
+    <section class="hero" id="hero">
+        <div class="text">
+            <h1>Markup achievement</h1>
+            <p>The harder you work for something, the greater you’ll feel when you achieve it.</p>
+            <button>Learn More</button>
+        </div>
+        <img class="image" src="./assets/image/image.png" alt="image">
+    </section>
+    <section class="rates" id="rates">
+        <div class="rates-text">
+            <h2>Rates</h2>
+            <p>Failure will never overtake me if my determination to succeed is strong enough.</p>
+        </div>
+        <table>
+            <tr>
+                <th>Features</th>
+                <th>Standart</th>
+                <th>Plus</th>
+                <th>PRO</th>
+            </tr>
+            <tr>
+                <th>Theory</th>
+                <td><img src="./assets/image/check.svg" alt="image"></td>
+                <td><img src="./assets/image/check.svg" alt="image"></td>
+                <td><img src="./assets/image/check.svg" alt="image"></td>
+            </tr>
+            <tr>
+                <th>Practice</th>
+                <td><img src="./assets/image/close.svg" alt="image"></td>
+                <td><img src="./assets/image/check.svg" alt="image"></td>
+                <td><img src="./assets/image/check.svg" alt="image"></td>
+            </tr>
+            <tr>
+                <th>Code review</th>
+                <td><img src="./assets/image/close.svg" alt="image"></td>
+                <td><img src="./assets/image/close.svg" alt="image"></td>
+                <td><img src="./assets/image/check.svg" alt="image"></td>
+            </tr>
+            <tr>
+                <th><a href="#">Have questions?</a></th>
+                <td><button>get now</button></td>
+                <td><button>get now</button></td>
+                <td><button>get now</button></td>
+            </tr>
+        </table>
+    </section>
+    <section class="account" id="newAccount">
+        <div class="account-text">
+            <h2>Create your free account</h2>
+            <p>Let us first talk about dreams. We all know that dreams do play a role in our daily lives.
+                The majority of people pay little attention to dreams.
+                Dreams can help us find solutions to our daily problems and see things from a different perspective.
+                Whenever we are dreaming, we can be who or what we want to be, regardless of the fact that in real life.
+            </p>
+        </div>
+        <form>
+            <input type="text" name="name" id="name" placeholder="Full Name*">
+            <input type="email" name="email" id="email" placeholder="Email*">
+            <input type="password" name="password" id="password" placeholder="Password*">
+            <input type="date" name="dateOfBirthd" id="dateOB">
+            <select name="Country" id="country">
+                <option selected disabled>Country</option>
+                <option value="">Belarus</option>
+                <option value="">USA</option>
+                <option value="">China</option>
+            </select>
+            
+                <label for="front">
+                    <input id="front" type="radio" name="stack" checked>
+                    Frontend
+                </label>
+                <label for="back">
+                    <input id="back" type="radio" name="stack">
+                    Backend
+                </label>
+            
+            <fieldset>
+                <legend>Favorite Technologies</legend>
+                <label for="html">
+                    <input id="html" type="checkbox" name="html" checked>
+                    HTML
+                </label>
+                <label for="css">
+                    <input id="css" type="checkbox" name="css" checked>
+                    CSS
+                </label>
+                <label for="react">
+                    <input id="react" type="checkbox" name="react">
+                    React
+                </label>
+                <label for="sc">
+                    <input id="sc" type="checkbox" name="sc">
+                    Styled components
+                </label>
+            </fieldset>
+            <textarea name="about" cols="30" rows="5" placeholder="Something else about you..."></textarea>
+            <input type="submit">
+        </form>
+    </section>
+    <footer>
+        <small>Copyright © 2023. All rights reserved.</small>
+    </footer>
+</body>
+
+</html>

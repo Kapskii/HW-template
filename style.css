@@ -1,0 +1,337 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    width: 1400px;
+    height: 76px;
+    flex-shrink: 0;
+    background-color: #0A61F7;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.logo {
+    margin-left: 130px;
+    margin-top: 14px;
+}
+
+header,
+ul {
+    display: flex;
+    gap: 40px;
+    margin-right: 130px;
+}
+
+.nav {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Rubik';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+
+}
+
+.hero {
+    display: flex;
+    background-color: #fff;
+    width: 1400px;
+    height: 800px;
+    flex-shrink: 0;
+    box-sizing: border-box
+}
+
+.image {
+    margin-top: 150px;
+    width: 656px;
+    height: 650px;
+    flex-shrink: 0;
+    border-radius: 10px 10px 0px 0px;
+
+
+}
+
+.text {
+    padding-left: 130px;
+    padding-top: 176px;
+    padding-bottom: 412px;
+    padding-right: 25px;
+}
+
+.text h1 {
+    width: 459px;
+    color: #363940;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Rubik';
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 68px;
+}
+
+.text p {
+    width: 380px;
+    color: #95A1BB;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.text button {
+    width: 152px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #0A61F7;
+    color: #FFF;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19.6px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+}
+
+.rates {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1400px;
+    height: 625px;
+    flex-shrink: 0;
+    background: #F9FAFC;
+    box-sizing: border-box
+}
+
+.rates-text {
+    align-items: center;
+}
+
+.rates-text h2 {
+    color: #363940;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Rubik;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 43px;
+    /* 134.375% */
+}
+
+.rates-text p {
+    color: #95A1BB;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 40px;
+    margin-left: 230px;
+    margin-bottom: 100px;
+    margin-right: 230px;
+    box-sizing: border-box;
+    border: solid #95A1BB;
+    border-radius: 4px;
+    width: 940px;
+    flex-shrink: 0;
+}
+
+tr {
+    box-sizing: border-box;
+    width: 940px;
+    height: 52px;
+    flex-shrink: 0;
+
+    border: solid #95A1BB;
+}
+
+td {
+    border: 1px solid grey;
+    width: 241px;
+    height: 96px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+th {
+    width: 241px;
+    height: 52px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    color: #95A1BB;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Rubik';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.account {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    width: 1400px;
+    height: 718px;
+    flex-shrink: 0;
+    background-color: #FFFFFF;
+}
+
+.account-text {
+    width: 500px;
+    height: 370px;
+    flex-shrink: 0;
+    margin-top: 100px;
+    margin-left: 130px;
+    margin-bottom: 248px;
+}
+
+.account-text h2 {
+    color: #363940;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Rubik';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.account-text p {
+    width: 500px;
+    color: #95A1BB;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+form {
+    display: block;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 480px;
+    height: 518px;
+    flex-shrink: 0;
+    margin-top: 100px;
+    margin-right: 130px;
+    margin-bottom: 100px;
+    margin-left: 160px;
+}
+
+#name {
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 480px;
+    height: 50px;
+    flex-shrink: 0;
+    margin-bottom: 20px;
+}
+
+#email {
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 230px;
+    height: 50px;
+    flex-shrink: 0;
+    margin-right: 6px;
+}
+
+#password {
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 230px;
+    height: 50px;
+    flex-shrink: 0;
+    margin-left: 10px;
+}
+
+#dateOB {
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 230px;
+    height: 50px;
+    flex-shrink: 0;
+    margin-top: 20px;
+    margin-right: 16px;
+    margin-bottom: 20px;
+}
+
+#country {
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 230px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+
+#front,
+#back {
+    margin-bottom: 20px;
+}
+
+label {
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    color: #95A1BB;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px;
+}
+
+fieldset {
+    width: 454px;
+    height: 83px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #95A1BB;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 1400px;
+    height: 62px;
+    flex-shrink: 0;
+    background: #0A61F7;
+}
+
+small{
+    margin-left: 545px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 544px;
+    color: white;
+    font-family: 'Rubik';
+}

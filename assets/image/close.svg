@@ -1,0 +1,52 @@
+<svg width="241" height="52" viewBox="0 0 241 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="241" height="52" fill="#F5F5F5"/>
+<g id="Desktop-1400px" clip-path="url(#clip0_0_1)">
+<rect width="1400" height="2280" transform="translate(-470 -1202)" fill="white"/>
+<g id="Rates section">
+<rect id="Base" x="-470" y="-327" width="1400" height="625" fill="#F9FAFC"/>
+<g id="table">
+<g id="tr">
+<g id="td">
+<rect id="Rectangle" x="-239.5" y="51.5" width="240" height="51" stroke="#95A1BB"/>
+</g>
+<g id="td_2">
+<rect id="Rectangle_2" x="0.5" y="51.5" width="240" height="51" stroke="#95A1BB"/>
+</g>
+<g id="td_3">
+<rect id="Rectangle_3" x="240.5" y="51.5" width="240" height="51" stroke="#95A1BB"/>
+</g>
+</g>
+<g id="tr_2">
+<g id="td_4">
+<rect id="Rectangle_4" x="-239.5" y="0.5" width="240" height="51" stroke="#95A1BB"/>
+</g>
+<g id="td_5">
+<rect id="Rectangle_5" x="0.5" y="0.5" width="240" height="51" stroke="#95A1BB"/>
+<g id="Icon/Close">
+<path id="Mask" d="M126.833 21.3417L125.658 20.1667L121 24.8251L116.342 20.1667L115.167 21.3417L119.825 26.0001L115.167 30.6584L116.342 31.8334L121 27.1751L125.658 31.8334L126.833 30.6584L122.175 26.0001L126.833 21.3417Z" fill="#95A1BB"/>
+</g>
+</g>
+<g id="td_6">
+<rect id="Rectangle_6" x="240.5" y="0.5" width="240" height="51" stroke="#95A1BB"/>
+</g>
+</g>
+<g id="tr_3">
+<g id="td_7">
+<rect id="Rectangle_7" x="-239.5" y="-50.5" width="240" height="51" stroke="#95A1BB"/>
+</g>
+<g id="td_8">
+<rect id="Rectangle_8" x="0.5" y="-50.5" width="240" height="51" stroke="#95A1BB"/>
+</g>
+<g id="td_9">
+<rect id="Rectangle_9" x="240.5" y="-50.5" width="240" height="51" stroke="#95A1BB"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_1">
+<rect width="1400" height="2280" fill="white" transform="translate(-470 -1202)"/>
+</clipPath>
+</defs>
+</svg>
