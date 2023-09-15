@@ -1,3 +1,24 @@
+textarea {
+    resize: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+ul {
+list-style-image: url("./assets/image/check-ul.svg");
+}
+
 body {
     margin: 0 auto;
 }
@@ -45,31 +66,51 @@ header {
     text-transform: uppercase;
 }
 
+/*
+section settings
+*/
+
+.section-style {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding: 0 130px;
+    width: 100%;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
 
 .hero {
-    display: flex;
     background-color: #fff;
-    width: 100%;
     height: 800px;
-    flex-shrink: 0;
-    box-sizing: border-box
+    gap: 20px;
+}
+
+.rates {
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    height: 625px;
+    background: #F9FAFC;
+}
+
+.account {
+    height: 718px;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+
+
 }
 
 .image {
-    margin-top: 150px;
+    align-self: flex-end;
     width: 656px;
     height: 650px;
     flex-shrink: 0;
     border-radius: 10px 10px 0px 0px;
 
 
-}
-
-.text {
-    padding-left: 130px;
-    padding-top: 176px;
-    padding-bottom: 412px;
-    padding-right: 25px;
 }
 
 .text h1 {
@@ -81,6 +122,7 @@ header {
     font-style: normal;
     font-weight: 500;
     line-height: 68px;
+    padding-bottom: 20px;
 }
 
 .text p {
@@ -92,20 +134,11 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: 22px;
+    padding-bottom: 40px;
 }
 
 
-.rates {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 625px;
-    flex-shrink: 0;
-    background: #F9FAFC;
-    box-sizing: border-box
-}
+
 
 .rates-text {
     align-items: center;
@@ -148,7 +181,7 @@ table {
     height: 96px;
 }
 
-.cell{
+.cell {
     width: 241px;
 
     padding: 0;
@@ -193,6 +226,7 @@ table {
     font-weight: 400;
     line-height: 22px;
 }
+
 .no-smoke a {
     text-decoration: none;
 }
@@ -225,6 +259,7 @@ table {
     cursor: pointer;
     text-decoration: none;
 }
+
 .button-large {
     width: 152px;
     height: 50px;
@@ -240,23 +275,16 @@ table {
     color: #F9FAFC;
 }
 
-.account {
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-    width: 1400px;
-    height: 718px;
-    flex-shrink: 0;
-    background-color: #FFFFFF;
+.form-button {
+    width: 100%;
+    height: 51px;
 }
+
 
 .account-text {
     width: 500px;
     height: 370px;
     flex-shrink: 0;
-    margin-top: 100px;
-    margin-left: 130px;
-    margin-bottom: 248px;
 }
 
 .account-text h2 {
@@ -267,83 +295,74 @@ table {
     font-style: normal;
     font-weight: 500;
     line-height: 40px;
+    margin-bottom: 50px;
 }
 
 .account-text p {
-    width: 500px;
+    width: 100%;
     color: #95A1BB;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+
+.account-advantages {
+    color: #363940;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Rubik;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 22px;
+
 }
 
-form {
-    display: block;
-    flex-direction: column;
-    box-sizing: border-box;
-    width: 480px;
-    height: 518px;
-    flex-shrink: 0;
-    margin-top: 100px;
-    margin-right: 130px;
-    margin-bottom: 100px;
-    margin-left: 160px;
-}
 
-#name {
-    box-sizing: border-box;
-    border-radius: 4px;
-    width: 480px;
-    height: 50px;
-    flex-shrink: 0;
+.form-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin-bottom: 20px;
+    width: 100%;
+
+    gap: 20px;
 }
 
-#email {
+.form-element-input {
+    width: 100%;
     box-sizing: border-box;
     border-radius: 4px;
-    width: 230px;
-    height: 50px;
-    flex-shrink: 0;
-    margin-right: 6px;
+    border: 1px solid #95A1BB;
+
+    padding: 10px;
+
+    color: #95A1BB;
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px;
 }
 
-#password {
+.form-legend {
     box-sizing: border-box;
-    border-radius: 4px;
-    width: 230px;
-    height: 50px;
-    flex-shrink: 0;
-    margin-left: 10px;
-}
 
-#dateOB {
-    box-sizing: border-box;
-    border-radius: 4px;
-    width: 230px;
-    height: 50px;
-    flex-shrink: 0;
-    margin-top: 20px;
-    margin-right: 16px;
-    margin-bottom: 20px;
-}
+    padding: 10px;
 
-#country {
-    box-sizing: border-box;
-    border-radius: 4px;
-    width: 230px;
-    height: 50px;
-    flex-shrink: 0;
+    color: #95A1BB;
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px;
 }
 
 
-#front,
-#back {
-    margin-bottom: 20px;
-}
+
 
 label {
     box-sizing: border-box;
@@ -352,7 +371,7 @@ label {
     height: 16px;
     flex-shrink: 0;
     color: #95A1BB;
-    font-family: Rubik;
+    font-family: 'Rubik';
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -383,4 +402,9 @@ footer {
 small {
     color: white;
     font-family: 'Rubik';
+}
+
+::-webkit-calendar-picker-indicator {
+    background: url(./assets/image/Calendar.svg) no-repeat center;
+    background-size: contain;
 }

@@ -30,7 +30,7 @@
             </li>
         </ul>
     </header>
-    <section class="hero" id="hero">
+    <section class="hero section-style" id="hero">
         <div class="text">
             <h1>Markup achievement</h1>
             <p>The harder you work for something, the greater you’ll feel when you achieve it.</p>
@@ -38,7 +38,7 @@
         </div>
         <img class="image" src="./assets/image/image.png" alt="image">
     </section>
-    <section class="rates" id="rates">
+    <section class="rates section-style" id="rates">
         <div class="rates-text">
             <h2>Rates</h2>
             <p>Failure will never overtake me if my determination to succeed is strong enough.</p>
@@ -88,7 +88,7 @@
             </tr>
         </table>
     </section>
-    <section class="account" id="newAccount">
+    <section class="account section-style" id="newAccount">
         <div class="account-text">
             <h2>Create your free account</h2>
             <p>Let us first talk about dreams. We all know that dreams do play a role in our daily lives.
@@ -96,49 +96,65 @@
                 Dreams can help us find solutions to our daily problems and see things from a different perspective.
                 Whenever we are dreaming, we can be who or what we want to be, regardless of the fact that in real life.
             </p>
+            <ul class="account-advantages">
+                <li>Easy setup, fast start</li>
+                <li>Free forever for core features</li>
+                <li>14-day trial of premium features</li>
+            </ul>
         </div>
         <form>
-            <input type="text" name="name" id="name" placeholder="Full Name*">
-            <input type="email" name="email" id="email" placeholder="Email*">
-            <input type="password" name="password" id="password" placeholder="Password*">
-            <input type="date" name="dateOfBirthd" id="dateOB">
-            <select name="Country" id="country">
-                <option selected disabled>Country</option>
-                <option value="">Belarus</option>
-                <option value="">USA</option>
-                <option value="">China</option>
-            </select>
-
-            <label for="front">
-                <input id="front" type="radio" name="stack" checked>
-                Frontend
-            </label>
-            <label for="back">
-                <input id="back" type="radio" name="stack">
-                Backend
-            </label>
-
-            <fieldset>
-                <legend>Favorite Technologies</legend>
-                <label for="html">
-                    <input id="html" type="checkbox" name="html" checked>
-                    HTML
-                </label>
-                <label for="css">
-                    <input id="css" type="checkbox" name="css" checked>
-                    CSS
-                </label>
-                <label for="react">
-                    <input id="react" type="checkbox" name="react">
-                    React
-                </label>
-                <label for="sc">
-                    <input id="sc" type="checkbox" name="sc">
-                    Styled components
-                </label>
-            </fieldset>
-            <textarea name="about" cols="30" rows="5" placeholder="Something else about you..."></textarea>
-            <input type="submit">
+            <div class="form-row">
+                <input type="text" name="name" id="name" placeholder="Full Name*" class="form-element-input">
+            </div>
+            <div class="form-row">
+                <input type="email" name="email" id="email" placeholder="Email*" class="form-element-input">
+                <input type="password" name="password" id="password" placeholder="Password*" class="form-element-input">
+            </div>
+            <div class="form-row">
+                <input type="date" name="dateOfBirthd" id="dateOB" class="form-element-input" placeholder="Date of Birth">
+                <select name="Country" id="country" class="form-element-input">
+                    <option selected disabled>Country</option>
+                    <option value="">Belarus</option>
+                    <option value="">USA</option>
+                    <option value="">China</option>
+                </select>
+            </div>
+            <div class="form-row">
+                <div>
+                    <label for="front">
+                        <input id="front" type="radio" name="stack" checked>
+                        Frontend
+                    </label>
+                    <label for="back">
+                        <input id="back" type="radio" name="stack">
+                        Backend
+                    </label>
+                </div>
+            </div>
+            <div class="form-row">
+                <fieldset>
+                    <legend class="form-legend">Favorite Technologies</legend>
+                    <label for="html">
+                        <input id="html" type="checkbox" name="html" checked>
+                        HTML
+                    </label>
+                    <label for="css">
+                        <input id="css" type="checkbox" name="css" checked>
+                        CSS
+                    </label>
+                    <label for="react">
+                        <input id="react" type="checkbox" name="react">
+                        React
+                    </label>
+                    <label for="sc">
+                        <input id="sc" type="checkbox" name="sc">
+                        Styled components
+                    </label>
+                </fieldset>
+            </div>
+            <textarea class="form-row form-element-input" name="about" cols="30" rows="5"
+                placeholder="Something else about you..."></textarea>
+            <input class="button button-blue form-button" type="submit">
         </form>
     </section>
     <footer>
